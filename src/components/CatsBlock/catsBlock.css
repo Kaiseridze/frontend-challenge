@@ -39,4 +39,9 @@
    .cat_block:hover .cat_badge {
       opacity: 1;
    }
+
+   .cat_badge:hover {
+      background: url(../../assets/hoveredFav.svg);
+      transition: 1s ease-in;
+   }
 }

@@ -9,7 +9,8 @@ const CatsBlock = ({ img, cat }) => {
 	const dispatch = useDispatch()
 	const { favoriteCats } = useSelector((state) => state.favCatSlice)
 	const isCatInFav = favoriteCats.some((item) => item.id === cat.id)
-
+	
+	// add/remove favorite cats
 	const handleFav = () => {
 		if (isCatInFav) {
 			dispatch(removeFavCat(cat.id))
@@ -17,6 +18,7 @@ const CatsBlock = ({ img, cat }) => {
 			dispatch(addFavCat(cat))
 		}
 	}
+	// 'img' means that if the data has an image then display it
 	return (
 		<div className='cat_block'>
 			{img && (

@@ -2,6 +2,7 @@ import { catsSlice } from "./catsSlice"
 import { requestOptions } from "../../api"
 import axios from "axios"
 
+// fetch initial page
 export const fetchCats = () => async (dispatch) => {
 	try {
       dispatch(catsSlice.actions.catsFetching())
@@ -15,6 +16,7 @@ export const fetchCats = () => async (dispatch) => {
    }
 }
 
+// fetch next page for lazy load
 export const lazyLoadCats = (id) => async (dispatch) => {
 	try {
 		dispatch(catsSlice.actions.lazyLoadFetching())
