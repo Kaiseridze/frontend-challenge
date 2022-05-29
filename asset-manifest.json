@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/frontend-challenge/static/css/main.98435bf7.css",
+    "main.js": "/frontend-challenge/static/js/main.b1e94956.js",
+    "index.html": "/frontend-challenge/index.html",
+    "static/media/addFav.svg": "/frontend-challenge/static/media/addFav.59de3ff1c8a27d8e1c02811839bfb0cf.svg",
+    "static/media/hoveredFav.svg": "/frontend-challenge/static/media/hoveredFav.8220379cb36244a7738b.svg",
+    "static/media/removeFromFav.svg": "/frontend-challenge/static/media/removeFromFav.6e844464e1e159f1f41bca68b1b9c1bc.svg",
+    "main.98435bf7.css.map": "/frontend-challenge/static/css/main.98435bf7.css.map",
+    "main.b1e94956.js.map": "/frontend-challenge/static/js/main.b1e94956.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98435bf7.css",
+    "static/js/main.b1e94956.js"
+  ]
+}
