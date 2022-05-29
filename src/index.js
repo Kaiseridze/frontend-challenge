@@ -10,7 +10,7 @@ const store = setupStore()
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
 	<Provider store={store}>
-		<Router>
+		<Router basename={process.env.PUBLIC_URL} >
 			<App />
 		</Router>
 	</Provider>
