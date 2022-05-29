@@ -1,0 +1,42 @@
+.cat_img {
+   width: 225px;
+   height: 225px;
+}
+
+
+.cat_block {
+   position: relative;
+   margin: 52px 32px 0 0;
+   transition: 0.15s ease-in;
+}
+
+.cat_badge {
+   cursor: pointer;
+   opacity: 0;
+   position: absolute;
+   top: 170px;
+   left: 170px;
+   transition: 0.15s ease-in;
+}
+
+@media (max-width: 768px) {
+   .cat_block {
+      margin: 52px 20px 0 0;
+   }
+
+   .cat_block .cat_badge {
+      opacity: 1;
+   }
+}
+
+
+
+@media (min-width: 769px) {
+   .cat_block:hover {
+      transform: scale(1.05);
+   }
+
+   .cat_block:hover .cat_badge {
+      opacity: 1;
+   }
+}
