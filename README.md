@@ -1,5 +1,5 @@
 # Frontend-Challenge
-Watch demo: https://kaiseridze.github.io/game-store-ts/
+Watch demo: https://kaiseridze.github.io/frontend-challenge/
 ____
 
 Stack:
