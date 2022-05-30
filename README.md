@@ -12,4 +12,4 @@ Stack:
 Functional:
 1. Display cats
 2. Add/remove favorite cats
-3. fetching cats on button
+3. Fetching cats on button
